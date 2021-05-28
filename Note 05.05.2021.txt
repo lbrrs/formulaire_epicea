@@ -1,0 +1,23 @@
+RFID :
+
+Kit de developpement (sdk)
+
+https://www.ionos.fr/digitalguide/sites-internet/developpement-web/software-development-kit/
+
+
+API :
+
+Le protocole WebSocket
+
+Le protocole WebSocket permet d'ouvrir un canal de communication bidirectionnel (ou "full-duplex") sur un socket TCP pour les navigateurs et les serveurs web. 
+Plus spécifiquement, il permet donc :
+la notification au client d'un changement d'état du serveur,
+l'envoi de données en mode « pousser » (méthode Push) du serveur vers le client, sans que ce dernier ait à effectuer une requête.
+
+Json en cours d'apprentissage 
+
+Utiliser Postman pour les tests
+
+Structure d'une requete : 
+POST/GET/DELETE/PUT + URI(identifier les ressources) + Headers(paire clé et valeur) + Body(facultatif)
+Voir cours OC

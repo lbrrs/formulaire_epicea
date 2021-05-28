@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+    <head>
+
+    </head>
+    <body>
+        <form action="" class="form" method="POST">
+            <div id="titre">
+                <h1>Document préparatoire feuille de route Système d'Information / CHAMBORD</h1>
+                <p>Par EPICEA - Document confidentiel</p>
+            </div>
+            <hr>
+            <div id="nom_projet">
+                <label class="titre_quest">Nom donné au projet de refonte du Système d'Information *</label>
+                <input type="text" name="input_nom_projet" id="input_nom_projet" required>
+            </div>
+            <div id="titre2">
+                <h2>EQUIPE PROJET</h2>
+                <p>BPO (Business Process Owner) et KU (Key User)</p>
+            </div>
+            <img>
+
+            <div id="tableau1">
+                <label class="titre_quest">Direction de Projet CHAMBORD (Project Sponsor) / Responsable des arbitrages, orientations stratégiques *</label>
+                <table id="table1">
+                    <tbody>
+                       <tr class="table_header">
+                           <th class="colonne0"></th>
+                           <th scope="col" class="colonne1">
+                               <label class="titre_colonne1">Mr/Mme</label>
+                           </th>
+                           <th scope="col" class="colonne2">
+                               <label class="titre_colonne2">Prénom</label>
+                           </th>
+                           <th scope="col" class="colonne3">
+                               <label class="titre_colonne3">NOM</label>
+                           </th>
+                           <th scope="col" class="colonne4">
+                                <label class="titre_colonne4">Fonction à CHAMBORD</label>
+                           </th>
+                       </tr>
+                       <tr class="table_ligne1">
+                           <th scope="row" class="ligne1">
+                               <label class="titre_ligne1">PS CHAMBORD</label>
+                           </th>
+                           <td class="ligne1_1">
+                               <select class="h_f" id="h_f1">
+                                   <option></option>
+                                   <option value="Monsieur">Monsieur</option>
+                                   <option value="Madame">Madame</option>
+                               </select>
+                           </td>
+                           <td class="ligne1_2">
+                               <input type="text" id="input_prenom1">
+                           </td>
+                           <td class="ligne1_3">
+                               <input type="text" id="input_nom1">
+                           </td>
+                           <td class="ligne1_4">
+                               <input type="text" id="input_fonction1">
+                           </td>
+                       </tr>
+                       <tr class="table_ligne2">
+                        <th scope="row" class="ligne2">
+                            <label class="titre_ligne2">PS CHAMBORD</label>
+                        </th>
+                        <td class="ligne2_1">
+                            <select class="h_f" id="h_f2">
+                                <option></option>
+                                <option value="Monsieur">Monsieur</option>
+                                <option value="Madame">Madame</option>
+                            </select>
+                        </td>
+                        <td class="ligne2_2">
+                            <input type="text" id="input_prenom2">
+                        </td>
+                        <td class="ligne2_3">
+                            <input type="text" id="input_nom2">
+                        </td>
+                        <td class="ligne2_4">
+                            <input type="text" id="input_fonction2">
+                        </td>
+                    </tr> 
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="tableau2">
+                <label class="titre_quest">Chef de Projet CHAMBORD (PM) / Responsable de la gestion du projet (planning, budget, risques...) *</label>
+                <table id="table2">
+                    <tbody>
+                        <tr class="table_header">
+                            <th class="colonne0"></th>
+                            <th scope="col" class="colonne1">
+                                <label class="titre_colonne1">Mr/Mme</label>
+                            </th>
+                            <th scope="col" class="colonne2">
+                                <label class="titre_colonne2">Prénom</label>
+                            </th>
+                            <th scope="col" class="colonne3">
+                                <label class="titre_colonne3">NOM</label>
+                            </th>
+                            <th scope="col" class="colonne4">
+                                    <label class="titre_colonne4">Fonction à CHAMBORD</label>
+                            </th>
+                        </tr>
+                        <tr class="table_ligne1">
+                            <th scope="row" class="ligne1">
+                                <label class="titre_ligne1">PS CHAMBORD</label>
+                            </th>
+                            <td class="ligne1_1">
+                                <select class="h_f" id="h_f1">
+                                    <option></option>
+                                    <option value="Monsieur">Monsieur</option>
+                                    <option value="Madame">Madame</option>
+                                </select>
+                            </td>
+                            <td class="ligne1_2">
+                                <input type="text" id="input_prenom1">
+                            </td>
+                            <td class="ligne1_3">
+                                <input type="text" id="input_nom1">
+                            </td>
+                            <td class="ligne1_4">
+                                <input type="text" id="input_fonction1">
+                            </td>
+                        </tr>
+                        <tr class="table_ligne2">
+                            <th scope="row" class="ligne2">
+                                <label class="titre_ligne2">PS CHAMBORD</label>
+                            </th>
+                            <td class="ligne2_1">
+                                <select class="h_f" id="h_f2">
+                                    <option></option>
+                                    <option value="Monsieur">Monsieur</option>
+                                    <option value="Madame">Madame</option>
+                                </select>
+                            </td>
+                            <td class="ligne2_2">
+                                <input type="text" id="input_prenom2">
+                            </td>
+                            <td class="ligne2_3">
+                                <input type="text" id="input_nom2">
+                            </td>
+                            <td class="ligne2_4">
+                                <input type="text" id="input_fonction2">
+                            </td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="tableau3">
+                <label class="titre_quest">Responsables Métiers (BPO) / Responsable de la gestion d'un processus de bout en bout *</label>
+                <table id="table3">
+                    <tbody>
+                        <tr class="table_header">
+                            <th class="colonne0"></th>
+                            <th scope="col" class="colonne1">
+                                <label class="titre_colonne1">OUI</label>
+                            </th>
+                            <th scope="col" class="colonne2">
+                                <label class="titre_colonne2">Mr/Mme</label>
+                            </th>
+                            <th scope="col" class="colonne3">
+                                <label class="titre_colonne3">Prénom</label>
+                            </th>
+                            <th scope="col" class="colonne4">
+                                <label class="titre_colonne4">Nom</label>
+                            </th>
+                            <th scope="col" class="colonne5">
+                                <label class="titre_colonne5">Fonction à CHAMBORD</label>
+                            </th>
+                        </tr>
+                        <tr class="table_ligne1">
+                            <th scope="row" class="ligne1">
+                                <label class="titre_colonne0">BPO Ventes</label>
+                            </th>
+                            <td class="ligne1_1">
+                                <input type="radio" id="radio1" value="OUI">
+                            </td>
+                            <td class="ligne1_2">
+                                <select class="h_f" id="h_f3">
+                                    <option></option>
+                                    <option value="Monsieur">Monsieur</option>
+                                    <option value="Madame">Madame</option>
+                                </select>
+                            </td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+        </form>
+    </body>
+</html>
